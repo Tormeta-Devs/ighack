@@ -113,4 +113,4 @@ read -p "Please enter Instagram username: " username
 
 echo "Executing"
 
-python instagram-py --username $username --password-list $password_file
+instagram-py --username $username --password-list $password_file

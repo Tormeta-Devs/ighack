@@ -1,20 +1,31 @@
-#!/bin/bash
-apt update
-apt upgrade
-
-sudo apt update
-sudo apt upgrade
-
-# Instalar git y python3
-sudo apt-get update
-sudo apt-get install -y git python3 python3-pip
-apt install git
-apt install python3 python3-pip
-
-pip3 install instagram-py
-apt install tor
-
-# Instalar los requerimientos del programa
+clear
+sleep 2
+echo -e "Installing"
+sleep 1
+pkg update -y
+pkg upgrade -y
+apt update -y
+apt upgrade -y
+pkg install python -y
+apt install python
+pkg install python2 -y
+pkg install wget -y
+pkg install lolcat -y
+pip install lolcat
+apt install lolcat -y
+pip install install --upgrade pip
+pip install requests --upgrade
+pip install requests[socks]
+pip install stem
+pip install instagram-py
+pkg install tor -y
+cd 
+wget -O ~/instapy-config.json "https://git.io/v5DGy"
+cd /data/data/com.termux/files/usr/etc/tor
+rm -rf torrc
+cd $HOME/ighack
+cp -r torrc /data/data/com.termux/files/usr/etc/tor
+cd
 echo "   "
 clear
 echo "Ante de usar el programa revise que en otra terminal este ejecutandose tor"

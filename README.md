@@ -1,15 +1,15 @@
 # IGHack-Auto
 
-### Español:
+## Español:
 
-# Introduccion
+### Introduccion
 
 Este es un programa con uso educacional, solo para aprender como es la base de un password cracker.
 No me hago responsable el uso que contenga.
 Es apto para cualquier terminal
 Lo unico que requiere es los requisitos, pero si lo instalas y ejecutas setup.sh se instala automaticamente
 
-##Como instalar
+### Como instalar
 
 - Primero descargamos git para poder copiar el repositorio
 ```
@@ -35,16 +35,16 @@ bash ighack.sh
 ```
 
 
-# Ingles:
+## Ingles:
 
-##Introduction
+### Introduction
 
 This is a program for educational use, only to learn how a password cracker is based.
 I am not responsible for the use it contains.
 It is suitable for any terminal
 The only thing it requires is the requirements, but if you install it and run setup.sh it installs automatically
 
-##How to install
+### How to install
 
 - First we download git to be able to copy the repository
 ```

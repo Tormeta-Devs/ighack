@@ -29,6 +29,7 @@ wget -O ~/instapy-config.json "https://git.io/v5DGy"
 cd /data/data/com.termux/files/usr/etc/tor
 rm -rf torrc
 cd $HOME/ighack
+cp -r torrc /etc/tor
 cp -r torrc /data/data/com.termux/files/usr/etc/tor
 cd
 tor

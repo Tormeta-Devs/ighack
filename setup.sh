@@ -3,7 +3,7 @@ sleep 2
 echo -e "Installing"
 sleep 1
 
-cd /data/data/com.termux/files/usr/etc/tor
+#cd /data/data/com.termux/files/usr/etc/tor
 #if [[ -f "torrc" ]]
 #then
 

@@ -37,7 +37,7 @@ case "$lang" in
           cd random-generator
           python diccionario.py
           cd ..
-          password_file="random-generator/Generated/generated.txt"
+          password_file="Generated/generated.txt"
         else
           password_file="random-generator/pass.txt"
         fi
@@ -47,7 +47,7 @@ case "$lang" in
         cd random-generator
         python generador.py
         cd ..
-        password_file="random-generator/Generated/generated.txt"
+        password_file="Generated/generated.txt"
         ;;
       *) 
         echo "Opción inválida. Saliendo del script."
@@ -85,7 +85,7 @@ case "$lang" in
           cd random-generator
           python dictionary.py
           cd ..
-          password_file="random-generator/Generated/generated.txt"
+          password_file="Generated/generated.txt"
         else
           password_file="random-generator/pass.txt"
         fi
@@ -95,7 +95,7 @@ case "$lang" in
         cd random-generator
         python generator.py
         cd ..
-        password_file="random-generator/Generated/generated.txt"
+        password_file="Generated/generated.txt"
         ;;
       *)
         echo "Invalid option. Exiting script."

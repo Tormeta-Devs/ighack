@@ -4,7 +4,7 @@ clear
 echo -e "\033[1;32m"
 figlet -f slant "Password Cracker" | lolcat
 
-read -p "¿En qué idioma prefieres comunicarte? (es/en): " lang
+read -p "¿En qué idioma prefieres comunicarte? Lang (es/en): " lang
 
 case "$lang" in
   "es") 
@@ -23,8 +23,6 @@ case "$lang" in
       "1") 
         read -p "Ingresa la ruta del archivo de diccionario personalizado (.txt): " dictionary_file
         clear
-        cd random-generator
-        python dictionary.py -f $dictionary_file
         cd ..
         password_file=$dictionary_file
         ;;

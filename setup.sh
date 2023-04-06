@@ -27,6 +27,7 @@ pkg install tor -y
 cd 
 wget -O ~/instapy-config.json "https://git.io/v5DGy"
 cd /data/data/com.termux/files/usr/etc/tor
+cd /etc/tor
 rm -rf torrc
 cd $HOME/ighack
 cp -r torrc /etc/tor
